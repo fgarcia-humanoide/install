@@ -65,8 +65,6 @@ sudo ln -s $OE_HOME/l10n-spain/l10n_es_toponyms/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/account_refund_original $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/disable_openerp_online/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/mass_editing/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/server-tools/auto_backup/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/server-tools/letsencrypt/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_export_view/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_location $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_partner_sequence $OE_HOME/custom/addons/
@@ -98,7 +96,6 @@ sudo ln -s $OE_HOME/knowledge/document_page/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/document_url/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_custom_filename/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_xls/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/auto_backup/auto_backup $OE_HOME/custom/addons/
 
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list_payment_mode $OE_HOME/custom/addons/
