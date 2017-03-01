@@ -35,6 +35,8 @@ sudo git clone --branch 8.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 8.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
 sudo git clone --branch 8.0 https://github.com/ingadhoc/account-invoicing.git $OE_HOME/account_invoicing_ingadhoc
 
+sudo git clone https://github.com/fgarcia-humanoide/modulos.git $OE_HOME/modulos
+
 
 echo -e "\n---- Create some links ----"
 sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting/ $OE_HOME/custom/addons/
@@ -100,6 +102,8 @@ sudo ln -s $OE_HOME/reporting-engine/report_xls/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list_payment_mode $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_payment_partner $OE_HOME/custom/addons/
+
+sudo ln -s $OE_HOME/modulos/ $OE_HOME/custom/addons/
 
 
 echo -e "\n---- Setting permissions on home folder ----"
