@@ -29,7 +29,6 @@ sudo git clone --branch 8.0 https://github.com/OCA/server-tools.git $OE_HOME/ser
 sudo git clone --branch 8.0 https://github.com/OCA/web.git $OE_HOME/web
 sudo git clone --branch 8.0 https://github.com/OCA/bank-payment.git $OE_HOME/bank-payment
 
-sudo git clone --branch 7.0 https://github.com/OCA/l10n-spain.git  $OE_HOME/libro_diario_7
 
 sudo git clone --branch 8.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 8.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
