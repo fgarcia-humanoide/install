@@ -28,7 +28,7 @@ sudo git clone --branch 10.0 https://github.com/OCA/partner-contact.git $OE_HOME
 sudo git clone --branch 10.0 https://github.com/OCA/server-tools.git $OE_HOME/server-tools
 sudo git clone --branch 10.0 https://github.com/OCA/web.git $OE_HOME/web
 sudo git clone --branch 10.0 https://github.com/OCA/bank-payment.git $OE_HOME/bank-payment
-
+sudo git clone --branch 10.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 sudo git clone --branch 10.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 10.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
 
@@ -38,6 +38,5 @@ sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
 
 
 echo "Done! Some modules installed"
-echo "Recuerda wkhtmltopdf 0.12.1 System parameters -> key:report.url value:http://localhost:8069"
 
 
