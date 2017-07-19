@@ -13,7 +13,7 @@ OE_HOME="/opt/$OE_USER"
 OE_HOME_EXT="/opt/$OE_USER/$OE_USER-server"
 
 #Enter version for checkout "8.0" for version 8.0, "7.0 (version 7), saas-4, saas-5 (opendays version) and "master" for trunk
-OE_VERSION="9.0"
+OE_VERSION="10.0"
 
 echo -e "\n==== Installing spanish localization ===="
 sudo git clone --branch 10.0 https://github.com/OCA/l10n-spain.git $OE_HOME/l10n-spain
