@@ -83,7 +83,7 @@ sudo ln -s $OE_HOME/partner-contact/base_location_geonames_import/ $OE_HOME/cust
 sudo ln -s $OE_HOME/partner-contact/base_partner_sequence $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/pos/pos_pricelist/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_custom_filename/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/reporting-engine/report_xls/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/reporting-engine/report_xlsx/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/disable_openerp_online/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/mass_editing/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/date_range/ $OE_HOME/custom/addons/
