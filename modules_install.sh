@@ -51,6 +51,8 @@ sudo ln -s $OE_HOME/bank-payment/account_banking_sepa_direct_debit/ $OE_HOME/cus
 sudo ln -s $OE_HOME/bank-payment/account_direct_debit/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_payment_partner $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_payment_mode $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/bank-payment/account_payment_order $OE_HOME/custom/addons/
+
 sudo ln -s $OE_HOME/bank-statement-import/account_bank_statement_import/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/attachment_preview/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/attachments_to_filesystem/ $OE_HOME/custom/addons/
