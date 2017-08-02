@@ -58,6 +58,7 @@ sudo ln -s $OE_HOME/knowledge/attachment_preview/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/attachments_to_filesystem/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/document_page/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/document_url/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/knowledge/knowledge/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting_xls/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/account_refund_original $OE_HOME/custom/addons/
