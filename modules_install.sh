@@ -31,6 +31,8 @@ sudo git clone --branch 10.0 https://github.com/OCA/bank-payment.git $OE_HOME/ba
 sudo git clone --branch 10.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 sudo git clone --branch 10.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 10.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
+sudo git clone --branch 10.0 https://github.com/OCA/contract.git $OE_HOME/contract
+
 
 echo -e "\n---- Create some links ----"
 sudo ln -s $OE_HOME/account-financial-reporting/account_export_csv $OE_HOME/custom/addons/
