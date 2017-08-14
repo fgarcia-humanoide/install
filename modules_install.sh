@@ -94,6 +94,13 @@ sudo ln -s $OE_HOME/server-tools/mass_editing/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/date_range/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_export_view/ $OE_HOME/custom/addons/
 
+sudo ln -s $OE_HOME/contract/contract/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/contract/contract_payment_mode/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/contract/contract_show_invoice/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
+
+
 
 
 echo -e "\n---- Setting permissions on home folder ----"
