@@ -102,12 +102,6 @@ sudo ln -s $OE_HOME/contract/contract_show_invoice/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
 
-
- 	account_credit_control
-
-
-
-
 echo -e "\n---- Setting permissions on home folder ----"
 sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
 
