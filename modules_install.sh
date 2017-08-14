@@ -43,6 +43,8 @@ sudo ln -s $OE_HOME/account-financial-tools/account_invoice_constraint_chronolog
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_currency $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_journal_always_check_date $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_renumber $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-financial-tools/account_credit_control $OE_HOME/custom/addons/
+
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list_payment_mode $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_banking_mandate/ $OE_HOME/custom/addons/ 
@@ -99,6 +101,9 @@ sudo ln -s $OE_HOME/contract/contract_payment_mode/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_show_invoice/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
+
+
+ 	account_credit_control
 
 
 
