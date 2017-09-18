@@ -33,6 +33,8 @@ sudo git clone --branch 10.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 10.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
 sudo git clone --branch 10.0 https://github.com/OCA/contract.git $OE_HOME/contract
 sudo git clone --branch 10.0 https://github.com/OCA/project.git $OE_HOME/project
+sudo git clone --branch 10.0 https://github.com/OCA/crm.git $OE_HOME/crm
+
 
 
 echo -e "\n---- Create some links ----"
