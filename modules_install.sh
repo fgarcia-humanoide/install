@@ -98,12 +98,14 @@ sudo ln -s $OE_HOME/server-tools/disable_odoo_online/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/mass_editing/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/server-tools/date_range/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_export_view/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/web/web_decimal_numpad_dot
-sudo ln -s $OE_HOME/web/web_environment_ribbon
-sudo ln -s $OE_HOME/web/web_timeline
-sudo ln -s $OE_HOME/project/project_task_default_stage
-sudo ln -s $OE_HOME/project/project_task_material
-sudo ln -s $OE_HOME/project/project_timeline
+sudo ln -s $OE_HOME/web/web_decimal_numpad_dot $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/web/web_environment_ribbon $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/web/web_timeline $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/project/project_task_default_stage $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/project/project_task_material $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/project/project_timeline $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/crm/crm_phonecall $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/server-tools/password_security $OE_HOME/custom/addons/
 
 sudo ln -s $OE_HOME/contract/contract/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_payment_mode/ $OE_HOME/custom/addons/
