@@ -70,9 +70,9 @@ echo -e "\n---- Install python libraries ----"
 sudo pip install gdata psycogreen ofxparse XlsxWriter unidecode setuptools unicodecsv
 
 
-echo -e "\n---- Install more python libraries ----"
-sudo pip install pycrypto unidecode unicodecsv requests openupgradelib
-sudo -H pip install suds
+# echo -e "\n---- Install more python libraries ----"
+# sudo pip install pycrypto unidecode unicodecsv requests openupgradelib
+# sudo -H pip install suds
 
 echo -e "\n--- Install other required packages"
 sudo apt-get install node-clean-css -y
