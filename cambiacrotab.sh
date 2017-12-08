@@ -3,7 +3,7 @@
 # añadimos lineas a crontab
 ################################################################################
 
-sudo crontab -e
+
 
 0  3    * * 5   root    /opt/letsencrypt/letsencrypt-auto renew >> /var/log/le-renew.log
 5  3    * * 5   root    service apache2 restart
