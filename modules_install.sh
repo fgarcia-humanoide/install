@@ -34,6 +34,9 @@ sudo git clone --branch 10.0 https://github.com/OCA/bank-statement-import.git $O
 sudo git clone --branch 10.0 https://github.com/OCA/contract.git $OE_HOME/contract
 sudo git clone --branch 10.0 https://github.com/OCA/project.git $OE_HOME/project
 sudo git clone --branch 10.0 https://github.com/OCA/crm.git $OE_HOME/crm
+sudo git clone --branch 10.0 https://github.com/OCA/account-closing.git $OE_HOME/account-closing
+
+
 
 
 
@@ -47,6 +50,7 @@ sudo ln -s $OE_HOME/account-financial-tools/account_invoice_currency $OE_HOME/cu
 sudo ln -s $OE_HOME/account-financial-tools/account_journal_always_check_date $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_renumber $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_credit_control $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-financial-tools/account_reversal $OE_HOME/custom/addons/
 
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list_payment_mode $OE_HOME/custom/addons/
@@ -112,6 +116,9 @@ sudo ln -s $OE_HOME/contract/contract_payment_mode/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_show_invoice/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-closing/account_fiscal_year_closing/ $OE_HOME/custom/addons/
+
+
 
 echo -e "\n---- Setting permissions on home folder ----"
 sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
