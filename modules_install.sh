@@ -45,6 +45,8 @@ echo -e "\n---- Create some links ----"
 sudo ln -s $OE_HOME/account-financial-reporting/account_export_csv $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-reporting/account_move_line_report_xls $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-reporting/account_tax_balance $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-financial-reporting/account_financial_report_qweb $OE_HOME/custom/addons/
+
 sudo ln -s $OE_HOME/account-financial-tools/account_chart_update $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_constraint_chronology $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_currency $OE_HOME/custom/addons/
@@ -93,10 +95,13 @@ sudo ln -s $OE_HOME/l10n-spain/l10n_es_partner/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_pos/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_toponyms/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_fiscal_year_closing/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting_xlsx/ $OE_HOME/custom/addons/
+
 sudo ln -s $OE_HOME/partner-contact/base_location $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_location_geonames_import/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_partner_sequence $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/partner-contact/partner-sector $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/partner-contact/partner_sector $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/pos/pos_pricelist/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_custom_filename/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_xlsx/ $OE_HOME/custom/addons/
@@ -120,7 +125,7 @@ sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-closing/account_fiscal_year_closing/ $OE_HOME/custom/addons/
 
-sudo ln -s $OE_HOME/crm/crm-sector $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/crm/crm_sector $OE_HOME/custom/addons/
 
 
 
