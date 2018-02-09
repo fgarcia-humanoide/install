@@ -96,6 +96,7 @@ sudo ln -s $OE_HOME/l10n-spain/l10n_es/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_location $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_location_geonames_import/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_partner_sequence $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/partner-contact/partner-sector $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/pos/pos_pricelist/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_custom_filename/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/reporting-engine/report_xlsx/ $OE_HOME/custom/addons/
@@ -118,6 +119,9 @@ sudo ln -s $OE_HOME/contract/contract_show_invoice/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/contract_variable_quantity/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/contract/product_contract/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-closing/account_fiscal_year_closing/ $OE_HOME/custom/addons/
+
+sudo ln -s $OE_HOME/crm/crm-sector $OE_HOME/custom/addons/
+
 
 
 
