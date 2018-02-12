@@ -97,6 +97,9 @@ sudo ln -s $OE_HOME/l10n-spain/l10n_es_toponyms/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_fiscal_year_closing/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting_xlsx/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/l10n-spain/l10n_es_vat_book/ $OE_HOME/custom/addons/
+
+
 
 sudo ln -s $OE_HOME/partner-contact/base_location $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/partner-contact/base_location_geonames_import/ $OE_HOME/custom/addons/
