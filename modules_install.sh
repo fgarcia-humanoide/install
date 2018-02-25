@@ -14,13 +14,11 @@ echo -e "\n==== Installing some modules ===="
 sudo git clone --branch 11.0 https://github.com/OCA/account-financial-tools.git $OE_HOME/account-financial-tools
 sudo git clone --branch 11.0 https://github.com/OCA/account-financial-reporting.git $OE_HOME/account-financial-reporting
 sudo git clone --branch 11.0 https://github.com/OCA/account-payment.git $OE_HOME/account-payment
-sudo git clone --branch 11.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 sudo git clone --branch 11.0 https://github.com/OCA/reporting-engine.git $OE_HOME/reporting-engine
 sudo git clone --branch 11.0 https://github.com/OCA/partner-contact.git $OE_HOME/partner-contact
 sudo git clone --branch 11.0 https://github.com/OCA/server-tools.git $OE_HOME/server-tools
 sudo git clone --branch 11.0 https://github.com/OCA/web.git $OE_HOME/web
 sudo git clone --branch 11.0 https://github.com/OCA/bank-payment.git $OE_HOME/bank-payment
-sudo git clone --branch 11.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 sudo git clone --branch 11.0 https://github.com/OCA/pos.git $OE_HOME/pos
 sudo git clone --branch 11.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
 sudo git clone --branch 11.0 https://github.com/OCA/contract.git $OE_HOME/contract
