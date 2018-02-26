@@ -121,6 +121,10 @@ sudo ln -s $OE_HOME/account-closing/account_fiscal_year_closing/ $OE_HOME/custom
 
 sudo ln -s $OE_HOME/crm/crm_sector $OE_HOME/custom/addons/
 
+sudo ln -s $OE_HOME/server-ux/date_range $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/server-ux/base_technical_features $OE_HOME/custom/addons/
+
+
 
 
 
