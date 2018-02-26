@@ -3,9 +3,10 @@
 # metamos lo que falta
 ################################################################################
  
-sudo pip install --upgrade pip
-sudo pip install setuptools
+sudo pip3 install --upgrade pip
+sudo pip3 install setuptools
 sudo pip3 install unidecode
 sudo pip3 install unicodecsv
-sudo pip install xlsxwriter 
-sudo pip install babel 
+sudo pip3 install xlsxwriter 
+sudo pip3 install babel 
+sudo pip3 install --upgrade pip
