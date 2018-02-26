@@ -106,6 +106,10 @@ sudo ln -s $OE_HOME/web/web_export_view/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_decimal_numpad_dot $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_environment_ribbon $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/web/web_timeline $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/web/web_no_bubble $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/web/web_responsive $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/web/web_sheet_full_width $OE_HOME/custom/addons/
+
 sudo ln -s $OE_HOME/project/project_task_default_stage $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/project/project_task_material $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/project/project_timeline $OE_HOME/custom/addons/
