@@ -35,8 +35,9 @@ sudo git clone --branch 10.0 https://github.com/OCA/contract.git $OE_HOME/contra
 sudo git clone --branch 10.0 https://github.com/OCA/project.git $OE_HOME/project
 sudo git clone --branch 10.0 https://github.com/OCA/crm.git $OE_HOME/crm
 sudo git clone --branch 10.0 https://github.com/OCA/account-closing.git $OE_HOME/account-closing
+sudo git clone --branch 10.0 https://github.com/OCA/account-invoicing.git $OE_HOME/account-invoicing
+
 sudo git clone https://github.com/fgarcia-humanoide/supermodulo.git $OE_HOME/supermodulo
-sudo git clone https://github.com/OCA/account-invoicing.git $OE_HOME/account-invoicing
 
 
 
