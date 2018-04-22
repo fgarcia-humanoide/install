@@ -7,6 +7,6 @@
 sudo mkdir /opt/datadir
 sudo mv /opt/odoo/.local/share/Odoo /opt/datadir
 sudo chown -R odoo:odoo /opt/datadir
-sudo echo 'data_dir = /opt/datadir/Odoo'>> /etc/odoo-server.conf
-sudo echo 'logrotate = True'>> /etc/odoo-server.conf
+sed -i 's+/opt/odoo/.local/share/Odoo+/opt/datadir/Odoo+g' /etc/odoo-server.conf
+sed -i 's+/logrotate = False+logrotate = True+g' /etc/odoo-server.conf
 sudo service odoo-server restart
