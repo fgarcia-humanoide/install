@@ -33,6 +33,7 @@ sudo git clone --branch 11.0 https://github.com/OCA/mis-builder.git $OE_HOME/mis
 sudo git clone --branch 11.0 https://github.com/OCA/queue.git $OE_HOME/queue
 sudo git clone --branch 11.0 https://github.com/OCA/server-brand.git $OE_HOME/server-brand
 sudo git clone --branch 11.0 https://github.com/Openworx/backend_theme.git $OE_HOME/backend_theme
+sudo git clone --branch 11.0 https://github.com/OCA/account-invoice-reporting.git $OE_HOME/account-invoice-reporting.git
 
 
 
