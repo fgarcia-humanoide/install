@@ -31,6 +31,7 @@ sudo git clone --branch 11.0 https://github.com/OCA/account-invoicing.git $OE_HO
 sudo git clone --branch 11.0 https://github.com/OCA/community-data-files.git $OE_HOME/community-data-files
 sudo git clone --branch 11.0 https://github.com/OCA/mis-builder.git $OE_HOME/mis-builder
 sudo git clone --branch 11.0 https://github.com/OCA/queue.git $OE_HOME/queue
+sudo git clone --branch 11.0 https://github.com/OCA/server-brand.git $OE_HOME/server-brand
 
 
 
