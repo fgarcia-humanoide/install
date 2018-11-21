@@ -11,4 +11,5 @@ sudo pip3 install xlsxwriter
 sudo pip3 install babel 
 sudo pip3 install numpy
 sudo pip3 install vatnumber
+sudo pip3 install num2words
 sudo pip3 install --upgrade pip
