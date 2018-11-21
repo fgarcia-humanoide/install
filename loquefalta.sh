@@ -9,4 +9,5 @@ sudo pip3 install unidecode
 sudo pip3 install unicodecsv
 sudo pip3 install xlsxwriter 
 sudo pip3 install babel 
+sudo pip3 install numpy
 sudo pip3 install --upgrade pip
