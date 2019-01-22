@@ -25,7 +25,6 @@ sudo git clone --branch 12.0 https://github.com/OCA/contract.git $OE_HOME/contra
 sudo git clone --branch 12.0 https://github.com/OCA/project.git $OE_HOME/project
 sudo git clone --branch 12.0 https://github.com/OCA/crm.git $OE_HOME/crm
 sudo git clone --branch 12.0 https://github.com/OCA/account-closing.git $OE_HOME/account-closing
-sudo git clone --branch 12.0 https://github.com/fgarcia-humanoide/supermodulo.git $OE_HOME/supermodulo
 sudo git clone --branch 12.0 https://github.com/OCA/server-ux.git $OE_HOME/server-ux
 sudo git clone --branch 12.0 https://github.com/OCA/account-invoicing.git $OE_HOME/account-invoicing
 sudo git clone --branch 12.0 https://github.com/OCA/community-data-files.git $OE_HOME/community-data-files
