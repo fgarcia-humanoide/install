@@ -16,4 +16,5 @@ sudo pip3 install xmlsig
 sudo pip3 install paramiko
 sudo pip3 install zeep
 sudo pip3 install phonenumbers
+sudo pip3 install Pygments
 sudo pip3 install --upgrade pip
