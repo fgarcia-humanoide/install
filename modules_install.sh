@@ -37,6 +37,9 @@ sudo git clone --branch 11.0 https://github.com/OCA/account-invoice-reporting.gi
 sudo git clone --branch 11.0 https://github.com/OCA/stock-logistics-workflow.git $OE_HOME/stock-logistics-workflow
 sudo git clone --branch 11.0 https://github.com/OCA/sale-workflow.git $OE_HOME/sale-workflow
 sudo git clone --branch 11.0 https://github.com/OCA/purchase-workflow.git $OE_HOME/purchase-workflow
+sudo git clone --branch 11.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
+
+
 
 
 
