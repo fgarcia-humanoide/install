@@ -38,6 +38,7 @@ sudo git clone --branch 12.0 https://github.com/OCA/stock-logistics-workflow.git
 sudo git clone --branch 12.0 https://github.com/OCA/sale-workflow.git $OE_HOME/sale-workflow
 sudo git clone --branch 12.0 https://github.com/OCA/purchase-workflow.git $OE_HOME/purchase-workflow
 sudo git clone --branch 12.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
+sudo git clone --branch 12.0 https://github.com/odoomates/odooapps.git $OE_HOME/odooapps
 
 
 
