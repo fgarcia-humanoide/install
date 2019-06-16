@@ -5,41 +5,47 @@ OE_HOME="/opt/$OE_USER"
 OE_HOME_EXT="/opt/$OE_USER/$OE_USER-server"
 
 #Enter version for checkout "8.0" for version 8.0, "7.0 (version 7), saas-4, saas-5 (opendays version) and "master" for trunk
-OE_VERSION="11.0"
+OE_VERSION="12.0"
 
-echo -e "\n==== Installing spanish localization ===="
-sudo git clone --branch 12.0 https://github.com/OCA/l10n-spain.git $OE_HOME/l10n-spain
-
-echo -e "\n==== Installing some modules ===="
-sudo git clone --branch 12.0 https://github.com/OCA/account-financial-tools.git $OE_HOME/account-financial-tools
-sudo git clone --branch 12.0 https://github.com/OCA/account-financial-reporting.git $OE_HOME/account-financial-reporting
-sudo git clone --branch 12.0 https://github.com/OCA/account-payment.git $OE_HOME/account-payment
-sudo git clone --branch 12.0 https://github.com/OCA/reporting-engine.git $OE_HOME/reporting-engine
-sudo git clone --branch 12.0 https://github.com/OCA/partner-contact.git $OE_HOME/partner-contact
-sudo git clone --branch 12.0 https://github.com/OCA/server-tools.git $OE_HOME/server-tools
-sudo git clone --branch 12.0 https://github.com/OCA/web.git $OE_HOME/web
-sudo git clone --branch 12.0 https://github.com/OCA/bank-payment.git $OE_HOME/bank-payment
-sudo git clone --branch 12.0 https://github.com/OCA/pos.git $OE_HOME/pos
-sudo git clone --branch 12.0 https://github.com/OCA/bank-statement-import.git $OE_HOME/bank-statement-import
-sudo git clone --branch 12.0 https://github.com/OCA/contract.git $OE_HOME/contract
-sudo git clone --branch 12.0 https://github.com/OCA/project.git $OE_HOME/project
-sudo git clone --branch 12.0 https://github.com/OCA/crm.git $OE_HOME/crm
-sudo git clone --branch 12.0 https://github.com/OCA/account-closing.git $OE_HOME/account-closing
-sudo git clone --branch 12.0 https://github.com/fgarcia-humanoide/supermodulo.git $OE_HOME/supermodulo
-sudo git clone --branch 12.0 https://github.com/OCA/server-ux.git $OE_HOME/server-ux
-sudo git clone --branch 12.0 https://github.com/OCA/account-invoicing.git $OE_HOME/account-invoicing
-sudo git clone --branch 12.0 https://github.com/OCA/community-data-files.git $OE_HOME/community-data-files
-sudo git clone --branch 12.0 https://github.com/OCA/mis-builder.git $OE_HOME/mis-builder
-sudo git clone --branch 12.0 https://github.com/OCA/queue.git $OE_HOME/queue
-sudo git clone --branch 12.0 https://github.com/OCA/server-brand.git $OE_HOME/server-brand
-sudo git clone --branch 12.0 https://github.com/Openworx/backend_theme.git $OE_HOME/backend_theme
-sudo git clone --branch 12.0 https://github.com/OCA/account-invoice-reporting.git $OE_HOME/account-invoice-reporting
-sudo git clone --branch 12.0 https://github.com/OCA/stock-logistics-workflow.git $OE_HOME/stock-logistics-workflow
-sudo git clone --branch 12.0 https://github.com/OCA/sale-workflow.git $OE_HOME/sale-workflow
-sudo git clone --branch 12.0 https://github.com/OCA/purchase-workflow.git $OE_HOME/purchase-workflow
-sudo git clone --branch 12.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
-sudo git clone --branch 12.0 https://github.com/odoomates/odooapps.git $OE_HOME/odooapps
-
+git clone -b 12.0 https://github.com/OCA/account-analytic.git /opt/odoo/account-analytic
+git clone -b 12.0 https://github.com/OCA/account-closing.git /opt/odoo/account-closing
+git clone -b 12.0 https://github.com/OCA/account-financial-reporting.git /opt/odoo/account-financial-reporting
+git clone -b 12.0 https://github.com/OCA/account-financial-tools.git /opt/odoo/account-financial-tools
+git clone -b 12.0 https://github.com/OCA/account-invoicing.git /opt/odoo/account-invoicing
+git clone -b 12.0 https://github.com/OCA/account-payment.git /opt/odoo/account-payment
+git clone -b 12.0 https://github.com/OCA/bank-payment.git /opt/odoo/bank-payment
+git clone -b 12.0 https://github.com/OCA/bank-statement-import.git /opt/odoo/bank-statement-import
+git clone -b 12.0 https://github.com/OCA/bank-statement-reconcile.git /opt/odoo/bank-statement-reconcile
+git clone -b 12.0 https://github.com/OCA/commission.git /opt/odoo/commission
+git clone -b 12.0 https://github.com/OCA/community-data-files.git /opt/odoo/community-data-files
+git clone -b 12.0 https://github.com/OCA/connector.git /opt/odoo/connector
+git clone -b 12.0 https://github.com/OCA/contract.git /opt/odoo/contract
+git clone -b 12.0 https://github.com/OCA/crm.git /opt/odoo/crm
+git clone -b 12.0 https://github.com/OCA/event.git /opt/odoo/event
+git clone -b 12.0 https://github.com/OCA/hr.git /opt/odoo/hr
+git clone -b 12.0 https://github.com/OCA/hr-timesheet.git /opt/odoo/hr-timesheet
+git clone -b 12.0 https://github.com/OCA/knowledge.git /opt/odoo/knowledge
+git clone -b 12.0 https://github.com/OCA/l10n-spain.git /opt/odoo/l10n-spain
+git clone -b 12.0 https://github.com/OCA/management-system.git /opt/odoo/management-system
+git clone -b 12.0 https://github.com/OCA/manufacture.git /opt/odoo/manufacture
+git clone -b 12.0 https://github.com/OCA/mis-builder.git /opt/odoo/mis-builder
+git clone -b 12.0 https://github.com/OCA/partner-contact.git /opt/odoo/partner-contact
+git clone -b 12.0 https://github.com/OCA/pos.git /opt/odoo/pos
+git clone -b 12.0 https://github.com/OCA/product-attribute.git /opt/odoo/product-attribute
+git clone -b 12.0 https://github.com/OCA/product-variant.git /opt/odoo/product-variant
+git clone -b 12.0 https://github.com/OCA/project.git /opt/odoo/project
+git clone -b 12.0 https://github.com/OCA/purchase-workflow.git /opt/odoo/purchase-workflow
+git clone -b 12.0 https://github.com/OCA/queue.git /opt/odoo/queue
+git clone -b 12.0 https://github.com/OCA/report-print-send.git /opt/odoo/report-print-send
+git clone -b 12.0 https://github.com/OCA/reporting-engine.git /opt/odoo/reporting-engine
+git clone -b 12.0 https://github.com/OCA/sale-workflow.git /opt/odoo/sale-workflow
+git clone -b 12.0 https://github.com/OCA/server-tools.git /opt/odoo/server-tools
+git clone -b 12.0 https://github.com/OCA/server-ux.git /opt/odoo/server-ux
+git clone -b 12.0 https://github.com/OCA/social /opt/odoo/social
+git clone -b 12.0 https://github.com/OCA/stock-logistics-warehouse.git /opt/odoo/stock-logistics-warehouse
+git clone -b 12.0 https://github.com/OCA/stock-logistics-workflow.git /opt/odoo/stock-logistics-workflow
+git clone -b 12.0 https://github.com/OCA/web.git /opt/odoo/web
+git clone -b 12.0 https://github.com/OCA/website.git /opt/odoo/website
 
 
 
