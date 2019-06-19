@@ -15,7 +15,6 @@ git clone -b 12.0 https://github.com/OCA/account-invoicing.git /opt/odoo/account
 git clone -b 12.0 https://github.com/OCA/account-payment.git /opt/odoo/account-payment
 git clone -b 12.0 https://github.com/OCA/bank-payment.git /opt/odoo/bank-payment
 git clone -b 12.0 https://github.com/OCA/bank-statement-import.git /opt/odoo/bank-statement-import
-git clone -b 12.0 https://github.com/OCA/bank-statement-reconcile.git /opt/odoo/bank-statement-reconcile
 git clone -b 12.0 https://github.com/OCA/commission.git /opt/odoo/commission
 git clone -b 12.0 https://github.com/OCA/community-data-files.git /opt/odoo/community-data-files
 git clone -b 12.0 https://github.com/OCA/connector.git /opt/odoo/connector
@@ -23,10 +22,9 @@ git clone -b 12.0 https://github.com/OCA/contract.git /opt/odoo/contract
 git clone -b 12.0 https://github.com/OCA/crm.git /opt/odoo/crm
 git clone -b 12.0 https://github.com/OCA/event.git /opt/odoo/event
 git clone -b 12.0 https://github.com/OCA/hr.git /opt/odoo/hr
-git clone -b 12.0 https://github.com/OCA/hr-timesheet.git /opt/odoo/hr-timesheet
+git clone -b 12.0 https://github.com/OCA/timesheet.git /opt/odoo/timesheet
 git clone -b 12.0 https://github.com/OCA/knowledge.git /opt/odoo/knowledge
 git clone -b 12.0 https://github.com/OCA/l10n-spain.git /opt/odoo/l10n-spain
-git clone -b 12.0 https://github.com/OCA/management-system.git /opt/odoo/management-system
 git clone -b 12.0 https://github.com/OCA/manufacture.git /opt/odoo/manufacture
 git clone -b 12.0 https://github.com/OCA/mis-builder.git /opt/odoo/mis-builder
 git clone -b 12.0 https://github.com/OCA/partner-contact.git /opt/odoo/partner-contact
@@ -36,7 +34,6 @@ git clone -b 12.0 https://github.com/OCA/product-variant.git /opt/odoo/product-v
 git clone -b 12.0 https://github.com/OCA/project.git /opt/odoo/project
 git clone -b 12.0 https://github.com/OCA/purchase-workflow.git /opt/odoo/purchase-workflow
 git clone -b 12.0 https://github.com/OCA/queue.git /opt/odoo/queue
-git clone -b 12.0 https://github.com/OCA/report-print-send.git /opt/odoo/report-print-send
 git clone -b 12.0 https://github.com/OCA/reporting-engine.git /opt/odoo/reporting-engine
 git clone -b 12.0 https://github.com/OCA/sale-workflow.git /opt/odoo/sale-workflow
 git clone -b 12.0 https://github.com/OCA/server-tools.git /opt/odoo/server-tools
