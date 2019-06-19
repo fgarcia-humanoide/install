@@ -17,7 +17,6 @@ git clone -b 12.0 https://github.com/OCA/bank-payment.git /opt/odoo/bank-payment
 git clone -b 12.0 https://github.com/OCA/bank-statement-import.git /opt/odoo/bank-statement-import
 git clone -b 12.0 https://github.com/OCA/commission.git /opt/odoo/commission
 git clone -b 12.0 https://github.com/OCA/community-data-files.git /opt/odoo/community-data-files
-git clone -b 12.0 https://github.com/OCA/connector.git /opt/odoo/connector
 git clone -b 12.0 https://github.com/OCA/contract.git /opt/odoo/contract
 git clone -b 12.0 https://github.com/OCA/crm.git /opt/odoo/crm
 git clone -b 12.0 https://github.com/OCA/event.git /opt/odoo/event
