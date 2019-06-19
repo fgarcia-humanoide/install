@@ -35,6 +35,7 @@ git clone -b 12.0 https://github.com/OCA/purchase-workflow.git /opt/odoo/purchas
 git clone -b 12.0 https://github.com/OCA/queue.git /opt/odoo/queue
 git clone -b 12.0 https://github.com/OCA/reporting-engine.git /opt/odoo/reporting-engine
 git clone -b 12.0 https://github.com/OCA/sale-workflow.git /opt/odoo/sale-workflow
+git clone -b 12.0 https://github.com/OCA/server-brand.git /opt/odoo/server-brand
 git clone -b 12.0 https://github.com/OCA/server-tools.git /opt/odoo/server-tools
 git clone -b 12.0 https://github.com/OCA/server-ux.git /opt/odoo/server-ux
 git clone -b 12.0 https://github.com/OCA/social /opt/odoo/social
