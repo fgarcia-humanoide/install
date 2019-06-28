@@ -34,6 +34,9 @@ pip3 install -r requirements.txt
 cd /opt/odoo/connector
 pip3 install -r requirements.txt
 
+cd /opt/odoo/connector-telephony
+pip3 install -r requirements.txt
+
 cd /opt/odoo/contract
 pip3 install -r requirements.txt
 
