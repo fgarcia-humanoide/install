@@ -54,7 +54,7 @@ cp -r /root/install/supermodulo /opt/odoo/supermodulo/
 
 
 
-echo -e "\n---- Setting permissions on home folder ----"
+echo -e "\n---- Setting permissions on home folder*** ----"
 sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
 
 
