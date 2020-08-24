@@ -104,6 +104,8 @@
 	'l10n_es_mis_report',
 	'l10n_es_partner',
 	'l10n_es_toponyms',
+	'l10n_es_vat_book',     
+        'l10n_es_account_asset'
 	'mail',
 	'mail_activity_board',
 	'mail_bot',
