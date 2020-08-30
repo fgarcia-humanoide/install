@@ -125,6 +125,7 @@
 	'purchase_stock',
 	'rating',
 	'remove_odoo_enterprise',
+	'report_batch',
 	'report_xlsx',
 	'resource',
 	'sale',
