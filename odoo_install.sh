@@ -35,7 +35,7 @@ OE_SUPERADMIN="admin"
 GENERATE_RANDOM_PASSWORD="False"
 OE_CONFIG="${OE_USER}-server"
 # Set the website name
-WEBSITE_NAME="tiendadeprueba.humanoide.es"
+WEBSITE_NAME="vigotoner.humanoide.es"
 # Set the default Odoo longpolling port (you still have to use -c /etc/odoo-server.conf for example to use this.)
 LONGPOLLING_PORT="8072"
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
