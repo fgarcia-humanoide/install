@@ -45,6 +45,8 @@ git clone -b 13.0 https://github.com/OCA/web.git /opt/odoo/web
 git clone -b 13.0 https://github.com/OCA/website.git /opt/odoo/website
 mkdir /opt/odoo/supermodulo
 cp -r /root/install/supermodulo /opt/odoo/supermodulo/
+cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
+cp -r /root/install/update_oca.sh /opt/odoo/update_oca.sh 
 
 
 
