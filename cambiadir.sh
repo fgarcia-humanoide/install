@@ -1,1 +1,1 @@
-cd /opt/odoo
+cd /opt/odoo/
