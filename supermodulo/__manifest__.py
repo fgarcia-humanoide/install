@@ -38,6 +38,7 @@
 	'account_invoice_search_by_reference',
 	'account_invoice_supplier_ref_unique',
 	'account_lock_date_update',
+	'account_move_force_removal',
 	'account_move_template',
 	'account_netting',
 	'account_payment',
