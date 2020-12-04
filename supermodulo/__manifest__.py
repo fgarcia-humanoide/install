@@ -93,6 +93,7 @@
 	'l10n_es_account_banking_sepa_fsdd',
 	'l10n_es_aeat',
 	'l10n_es_aeat_mod111',
+	'l10n_es_aeat_mod115',
 	'l10n_es_aeat_mod303',
 	'l10n_es_aeat_mod347',
 	'l10n_es_mis_report',
