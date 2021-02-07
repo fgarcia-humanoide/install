@@ -12,6 +12,7 @@ git clone -b 13.0 https://github.com/OCA/account-closing.git /opt/odoo/account-c
 git clone -b 13.0 https://github.com/OCA/account-financial-reporting.git /opt/odoo/account-financial-reporting
 git clone -b 13.0 https://github.com/OCA/account-financial-tools.git /opt/odoo/account-financial-tools
 git clone -b 13.0 https://github.com/OCA/account-invoicing.git /opt/odoo/account-invoicing
+git clone -b 13.0 https://github.com/OCA/account-invoice-reporting.git /opt/odoo/account-invoice-reporting
 git clone -b 13.0 https://github.com/OCA/account-payment.git /opt/odoo/account-payment
 git clone -b 13.0 https://github.com/OCA/bank-payment.git /opt/odoo/bank-payment
 git clone -b 13.0 https://github.com/OCA/bank-statement-import.git /opt/odoo/bank-statement-import
