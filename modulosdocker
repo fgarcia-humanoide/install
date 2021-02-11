@@ -1,7 +1,7 @@
 ##fixed parameters
 #openerp
 OE_USER="odoo"
-OE_HOME="/opt/$OE_USER"
+OE_HOME="/mnt/extra-addons"
 OE_HOME_EXT="/opt/$OE_USER/$OE_USER-server"
 
 #Enter version for checkout "8.0" for version 8.0, "7.0 (version 7), saas-4, saas-5 (opendays version) and "master" for trunk
@@ -31,13 +31,6 @@ sudo git clone --branch 11.0 https://github.com/OCA/account-invoicing.git $OE_HO
 sudo git clone --branch 11.0 https://github.com/OCA/community-data-files.git $OE_HOME/community-data-files
 sudo git clone --branch 11.0 https://github.com/OCA/mis-builder.git $OE_HOME/mis-builder
 sudo git clone --branch 11.0 https://github.com/OCA/queue.git $OE_HOME/queue
-sudo git clone --branch 11.0 https://github.com/OCA/server-brand.git $OE_HOME/server-brand
-sudo git clone --branch 11.0 https://github.com/Openworx/backend_theme.git $OE_HOME/backend_theme
-sudo git clone --branch 11.0 https://github.com/OCA/account-invoice-reporting.git $OE_HOME/account-invoice-reporting
-sudo git clone --branch 11.0 https://github.com/OCA/stock-logistics-workflow.git $OE_HOME/stock-logistics-workflow
-sudo git clone --branch 11.0 https://github.com/OCA/sale-workflow.git $OE_HOME/sale-workflow
-sudo git clone --branch 11.0 https://github.com/OCA/purchase-workflow.git $OE_HOME/purchase-workflow
-sudo git clone --branch 11.0 https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 
 
 
@@ -45,14 +38,5 @@ sudo git clone --branch 11.0 https://github.com/OCA/knowledge.git $OE_HOME/knowl
 
 
 
-
-
-
-
-echo -e "\n---- Setting permissions on home folder ----"
-sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
-
-
-echo "Done! Some modules installed"
 
 

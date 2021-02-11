@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_/opt/odoo/supermodulo_/opt/odoo/supermodulo,/opt/odoo/supermodulo./opt/odoo/supermodulo,model_/opt/odoo/supermodulo_/opt/odoo/supermodulo,,1,0,0,0
