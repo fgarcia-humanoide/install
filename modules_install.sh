@@ -42,6 +42,8 @@ git clone -b 13.0 https://github.com/OCA/server-ux.git /opt/odoo/server-ux
 git clone -b 13.0 https://github.com/OCA/social /opt/odoo/social
 git clone -b 13.0 https://github.com/OCA/stock-logistics-warehouse.git /opt/odoo/stock-logistics-warehouse
 git clone -b 13.0 https://github.com/OCA/stock-logistics-workflow.git /opt/odoo/stock-logistics-workflow
+git clone -b 13.0 https://github.com/OCA/stock-logistics-reporting.git /opt/odoo/stock-logistics-reporting
+git clone -b 13.0 https://github.com/OCA/credit-control.git /opt/odoo/credit-control
 git clone -b 13.0 https://github.com/OCA/web.git /opt/odoo/web
 git clone -b 13.0 https://github.com/OCA/website.git /opt/odoo/website
 mkdir /opt/odoo/supermodulo
