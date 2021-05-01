@@ -44,7 +44,7 @@ git clone -b 14.0 https://github.com/OCA/stock-logistics-workflow.git /opt/odoo/
 git clone -b 14.0 https://github.com/OCA/web.git /opt/odoo/web
 git clone -b 14.0 https://github.com/OCA/website.git /opt/odoo/website
 git clone -b 14.0 https://github.com/OCA/website.git /opt/odoo/website
-git clone -b 14.0 https://github.com/CybroOdoo/CybroAddons.git
+git clone -b 14.0 https://github.com/CybroOdoo/CybroAddons.git /opt/odoo/CybroAddons
 cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
 cp -r /root/install/update_oca.sh /opt/odoo/update_oca.sh 
 sudo chmod +x /opt/odoo/requirements_oca.sh
