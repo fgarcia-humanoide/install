@@ -22,6 +22,7 @@ git clone -b 13.0 https://github.com/OCA/contract.git /opt/odoo/contract
 git clone -b 13.0 https://github.com/OCA/crm.git /opt/odoo/crm
 git clone -b 13.0 https://github.com/OCA/event.git /opt/odoo/event
 git clone -b 13.0 https://github.com/OCA/hr.git /opt/odoo/hr
+git clone -b 13.0 https://github.com/OCA/hr-holiday.git /opt/odoo/hr-holiday
 git clone -b 13.0 https://github.com/OCA/timesheet.git /opt/odoo/timesheet
 git clone -b 13.0 https://github.com/OCA/knowledge.git /opt/odoo/knowledge
 git clone -b 13.0 https://github.com/OCA/l10n-spain.git /opt/odoo/l10n-spain
