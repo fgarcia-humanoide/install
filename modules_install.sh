@@ -47,6 +47,7 @@ git clone -b 13.0 https://github.com/OCA/stock-logistics-reporting.git /opt/odoo
 git clone -b 13.0 https://github.com/OCA/credit-control.git /opt/odoo/credit-control
 git clone -b 13.0 https://github.com/OCA/web.git /opt/odoo/web
 git clone -b 13.0 https://github.com/OCA/website.git /opt/odoo/website
+git clone -b 13.0 https://github.com/OCA/e-commerce.git /opt/odoo/e-commerce
 mkdir /opt/odoo/supermodulo
 cp -r /root/install/supermodulo /opt/odoo/supermodulo/
 cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
