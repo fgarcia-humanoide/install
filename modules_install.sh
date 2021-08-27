@@ -46,6 +46,7 @@ git clone -b 14.0 https://github.com/OCA/website.git /opt/odoo/website
 git clone -b 14.0 https://github.com/OCA/website.git /opt/odoo/website
 git clone -b 14.0 https://github.com/CybroOdoo/CybroAddons.git /opt/odoo/CybroAddons
 git clone -b 14.0 https://github.com/OCA/account-reconcile.git /opt/odoo/account-reconcile
+git clone -b 14.0 https://github.com/OCA/credit-control.git /opt/odoo/credit-control
 cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
 cp -r /root/install/update_oca.sh /opt/odoo/update_oca.sh 
 sudo chmod +x /opt/odoo/requirements_oca.sh
