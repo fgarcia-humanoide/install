@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="supermodulo2.list">
+      <field name="name">supermodulo2 list</field>
+      <field name="model">supermodulo2.supermodulo2</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="supermodulo2.action_window">
+      <field name="name">supermodulo2 window</field>
+      <field name="res_model">supermodulo2.supermodulo2</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="supermodulo2.action_server">
+      <field name="name">supermodulo2 server</field>
+      <field name="model_id" ref="model_supermodulo2_supermodulo2"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="supermodulo2" id="supermodulo2.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="supermodulo2.menu_1" parent="supermodulo2.menu_root"/>
+    <menuitem name="Menu 2" id="supermodulo2.menu_2" parent="supermodulo2.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="supermodulo2.menu_1_list" parent="supermodulo2.menu_1"
+              action="supermodulo2.action_window"/>
+    <menuitem name="Server to list" id="supermodulo2" parent="supermodulo2.menu_2"
+              action="supermodulo2.action_server"/>
+-->
+  </data>
+</odoo>
