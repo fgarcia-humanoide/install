@@ -123,7 +123,6 @@
 'payment_transfer',
 'payment',
 'phone_validation',
-'point_of_sale',
 'portal_rating',
 'portal',
 'procurement_jit',
