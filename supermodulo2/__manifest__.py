@@ -108,6 +108,7 @@
 'l10n_es',
 'legion_enterprise_theme',
 'link_tracker',
+'login_user_detail',
 'mail_bot_hr',
 'mail_bot',
 'mail',
