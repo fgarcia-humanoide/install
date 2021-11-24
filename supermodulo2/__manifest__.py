@@ -37,6 +37,7 @@
 'account_menu',
 'account_move_force_removal',
 'account_move_line_menu',
+'account_move_line_report_xls',
 'account_move_line_tax_editable',
 'account_move_template',
 'account_netting',
