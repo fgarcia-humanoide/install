@@ -129,6 +129,7 @@
 'portal',
 'procurement_jit',
 'product',
+'product_category_tax',
 'project_task_default_stage',
 'project_timeline',
 'project',
