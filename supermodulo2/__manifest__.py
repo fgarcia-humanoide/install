@@ -137,7 +137,6 @@
 'purchase',
 'rating',
 'remove_odoo_enterprise',
-'repair',
 'report_xlsx',
 'resource',
 'sale_crm',
