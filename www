@@ -1,0 +1,6 @@
+server {
+    listen 80;
+    listen 443 ssl;
+    server_name www.midominio.com;
+    return 301 https://midominio.com$request_uri;
+}
