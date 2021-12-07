@@ -50,7 +50,6 @@ git clone -b 14.0 https://github.com/OCA/credit-control.git /opt/odoo/credit-con
 git clone -b 14.0 https://github.com/OCA/account-invoice-reporting.git /opt/odoo/account-invoice-reporting
 git clone -b 14.0 https://github.com/OCA/stock-logistics-reporting.git /opt/odoo/stock-logistics-reporting
 git clone -b 14.0 https://github.com/OCA/helpdesk.git /opt/odoo/helpdesk
-git clone -b 14.0 https://github.com/OCA/account-invoice-reporting.git /opt/odoo/account-invoice-reporting
 
 cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
 cp -r /root/install/update_oca.sh /opt/odoo/update_oca.sh 
