@@ -120,6 +120,7 @@
 'mis_builder_cash_flow',
 'mis_builder',
 'note',
+'partner_manual_rank'
 'partner_statement',
 'payment_fix_register_token',
 'payment_transfer',
