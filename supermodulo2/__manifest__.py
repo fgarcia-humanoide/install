@@ -33,6 +33,7 @@
 'account_edi_ubl',
 'account_edi',
 'account_financial_report',
+'account_invoice_fiscal_position_update',
 'account_lock_date_update',
 'account_menu',
 'account_move_force_removal',
