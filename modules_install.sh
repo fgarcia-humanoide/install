@@ -51,6 +51,7 @@ git clone -b 14.0 https://github.com/OCA/account-invoice-reporting.git /opt/odoo
 git clone -b 14.0 https://github.com/OCA/stock-logistics-reporting.git /opt/odoo/stock-logistics-reporting
 git clone -b 14.0 https://github.com/OCA/helpdesk.git /opt/odoo/helpdesk
 git clone -b 14.0 https://github.com/OCA/sale-reporting.git /opt/odoo/sale-reporting
+git clone -b 14.0 https://github.com/OCA/server-backend.git /opt/odoo/server-backend
 
 
 cp -r /root/install/requirements_oca.sh /opt/odoo/requirements_oca.sh
