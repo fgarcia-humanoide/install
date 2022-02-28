@@ -34,6 +34,7 @@
 'account_edi',
 'account_financial_report',
 'account_invoice_fiscal_position_update',
+'account_invoice_line_report',
 'account_lock_date_update',
 'account_menu',
 'account_move_force_removal',
