@@ -36,6 +36,7 @@
 'account_lock_date_update',
 'account_move_force_removal',
 'account_move_line_menu',
+'account_move_name_sequence',
 'account_payment_mode',
 'account_payment_order',
 'account_payment_partner',
