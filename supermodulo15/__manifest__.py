@@ -138,6 +138,7 @@
 'mis_builder',
 'note',
 'partner_autocomplete',
+'partner_manual_rank',
 'payment_transfer',
 'payment',
 'phone_validation',
