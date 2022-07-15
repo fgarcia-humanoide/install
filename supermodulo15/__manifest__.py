@@ -148,6 +148,7 @@
 'portal_rating',
 'portal',
 'product',
+'product_category_tax',
 'project_account',
 'project_hr_expense',
 'project_purchase',
