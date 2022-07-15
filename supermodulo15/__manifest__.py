@@ -139,6 +139,7 @@
 'mis_builder',
 'note',
 'partner_autocomplete',
+'partner_deduplicate_acl',
 'partner_manual_rank',
 'payment_transfer',
 'payment',
