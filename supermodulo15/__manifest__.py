@@ -53,6 +53,7 @@
 'auth_password_policy_portal',
 'auth_password_policy_signup',
 'auth_password_policy',
+'auth_session_timeout',
 'auth_signup',
 'auth_totp_mail',
 'auth_totp_portal',
