@@ -116,6 +116,7 @@
 'l10n_es_aeat_mod115',
 'l10n_es_aeat_mod123',
 'l10n_es_aeat_mod303',
+'l10n_es_aeat_mod303_print',
 'l10n_es_aeat_mod347',
 'l10n_es_aeat_mod349',
 'l10n_es_aeat_mod390',
