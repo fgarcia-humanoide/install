@@ -52,7 +52,7 @@ git clone -b 15.0 https://github.com/OCA/stock-logistics-reporting.git /opt/odoo
 git clone -b 15.0 https://github.com/OCA/helpdesk.git /opt/odoo/helpdesk
 git clone -b 15.0 https://github.com/OCA/sale-reporting.git /opt/odoo/sale-reporting
 git clone -b 15.0 https://github.com/OCA/server-backend.git /opt/odoo/server-backend
-# git clone -b 15.0 https://github.com/sygel-technology/sy-l10n-spain.git /opt/odoo/sy-l10n-spain
+git clone -b 15.0 https://github.com/sygel-technology/sy-l10n-spain.git /opt/odoo/sy-l10n-spain
 git clone -b 15.0 https://github.com/OCA/e-commerce.git /opt/odoo/e-commerce
 git clone -b 15.0 https://github.com/OCA/server-auth.git /opt/odoo/server-auth
 
