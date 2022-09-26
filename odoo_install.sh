@@ -63,6 +63,11 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 #--------------------------------------------------
+# Install pyopenssl
+#--------------------------------------------------
+sudo pip3 install pyopenssl==22.0.0
+
+#--------------------------------------------------
 # Install PostgreSQL Server
 #--------------------------------------------------
 echo -e "\n---- Install PostgreSQL Server ----"
